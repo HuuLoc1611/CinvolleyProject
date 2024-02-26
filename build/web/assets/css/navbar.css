@@ -1,0 +1,43 @@
+.navbar-2 {
+		background-color: white;
+		position: relative;
+		z-index: 999;
+	}
+
+	.navbar-2 ul {
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+    background: white;
+	}
+
+	.navbar-2 li {
+		display: inline-block;
+	}
+
+	.navbar-2 li a {
+		color: white;
+		display: block;
+		padding: 10px 20px;
+		text-decoration: none;
+	}
+
+	/* Style the dropdown menu */
+	.navbar-2 ul ul {
+		position: absolute;
+		top: 100%;
+		display: none;
+	}
+
+	.navbar-2 ul ul li {
+		display: block;
+	}
+
+	.navbar-2 li:hover ul {
+		display: block;
+	}
+
+	/* Change the background color of dropdown links on hover */
+	.navbar-2 ul ul li a:hover {
+		background-color: #555;
+	}
